@@ -8,6 +8,34 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
+            "name": "Launch add-on",
+            "addonPath": "${workspaceFolder}"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch index.html",
+            "file": "${workspaceFolder}/index.html"
+        },
+
+        {
+            "type": "firefox",
+            "request": "attach",
+            "name": "Attach"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch add-on",
+            "addonPath": "${workspaceFolder}"
+        },
+
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
             "name": "Launch index.html",
             "file": "${workspaceFolder}/index.html"
         },
